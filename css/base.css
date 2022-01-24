@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+/*
+* @data 2015-3-9
+* Author: Linda Lu
+*
+* E.SUN RWD Stylesheet
+--------------------------------
+   Base 共用設定
+--------------------------------
+*/
+
+/*-------- reset ----------*/
+html,body { height: 100%; }
+html, body, div, span, p, ul, li, input, table, thead, tr, th, td { margin: 0; padding: 0; }
+body { line-height: auto; font-size: 100%; font-weight: normal; font-family: '微軟正黑體', 'Microsoft JhengHei', 'Microsoft YaHei', Helvetica, Arial, sans-serif; word-wrap: break-word; -webkit-text-size-adjust: none; }
+a img, img { max-width: 100%; height:auto; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.boxsizing { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+
+
+/*-------- 共用其它設定 ----------*/
+.f-15 { font-size: 15px; line-height: 25px; }
+.w90pct { width: 90%; max-width: 1000px; margin: 0 auto; }
+.pv20 { padding-top: 20px; padding-bottom: 20px; }
+@media screen and (max-width: 960px) {
+	.w90pct { width: 95%; max-width: 100%; margin: 0 auto; }
+}
+@media screen and (max-width: 532px) {
+	.w90pct { width: 92%; max-width: 100%; margin: 0 auto; }
+}
+
