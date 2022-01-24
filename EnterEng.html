@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>玉山30畫家畫玉山 報名申請 - 玉山銀行 E.SUN BANK</title>
+    <meta name="keywords" content="玉山銀行、最高的山">
+    <meta name="description" content="【玉山30畫家畫玉山】繪畫比賽 - 報名申請填寫表單">
+    <link rel="shortcut icon" href="https://www.esunbank.com.tw/bank/images/esunbank/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/HeaderFooter.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="~/Scripts/html5.js"></script>
+        <script src="~/Scripts/respond.js"></script>
+    <![endif]-->
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    <style type="text/css">
+        .ui-datepicker .ui-datepicker-prev span,
+        .ui-datepicker .ui-datepicker-next span {
+            color: transparent;
+        }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K9JMBLG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+    <!-- #header -->
+    <header id="header">
+        <div class="container clearfix">
+            <a href="#menu" id="toggle"><span></span></a>
+            <div class="head_logo">
+                <a class="ef_tracking esunlogo" href="https://www.esunbank.com.tw/bank/personal" target="_blank"><img
+                        src="images/HeaderFooter/logo.svg" class="img-responsive" alt="玉山銀行"></a>
+            </div>
+            <nav class="main-nav" role="navigation">
+                <ul class="anchor">
+                    <li><a class="ef_tracking" href="#">首頁</a></li>
+                    <li><a class="ef_tracking" href="#">比賽辦法</a></li>
+                    <li><a class="ef_tracking" href="#">公告訊息</a></li>
+                    <li><a class="ef_tracking" href="#">歷屆資訊</a></li>
+                    <li><a class="ef_tracking" href="#">認識玉山</a></li>
+                    <li><a class="ef_tracking btn_join" href="#">立即報名</a></li>
+                    <li class="langBtn">
+                        <a href="~/Painter/EnterEng">EN</a>
+                        <ul>
+                            <li>
+                                <a href="~/Painter/EnterEng">EN</a>
+                            </li>
+                            <li>
+                                <a href="~/Painter/Enter">JP</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <div id="wrapper">
+        <div class="kv">
+            <div class="art"></div>
+            <h1>線上報名</h1>
+            <p>廖繼春／玉山日出</p>
+        </div>
+        <!-- #content -->
+        <div id="content">
+            <h1 class="subTitle font_tw">E.SUN Art Awards 2022 Registration</h1>
+            <div class="wrap">
+                <!-- 報名組別 -->
+                <h2 class="title">Registration Categories</h2>
+                <p class="notebox">※ If you do not have Taiwan(R.O.C.) nationality, please choose the foreigner group.
+                </p>
+                <table class="form">
+                    <tr>
+                        <td colspan="2">
+                            <label>
+                                <input checked="True" data-val="true" id="working" name="Team" required="required"
+                                    type="radio" value="social"> Adult Group
+                            </label>
+                            <label>
+                                <input id="student" name="Team" required="required" type="radio" value="student">
+                                Student Group
+                            </label>
+                            <label>
+                                <input id="foreigner" name="Team" required="required" type="radio" value="foreigner">
+                                Foreigner Group
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+                <!-- 基本資料 -->
+                <h2 class="title" style="text-wrap:none;">General Information <span class="note"
+                        style="font-size:12px; color: #fb8800;">　　*Required</span></h2>
+
+                <table class="form">
+                    <!-- @*<tr>
+                <td colspan="2">
+                    <label>
+                        @Html.RadioButtonFor(m => m.Nationality, PainterViewModel.Nationality_options.native, new { @class = "native", @required = "required", @checked = true }) Citizen
+                    </label>
+                    <label>
+                        @Html.RadioButtonFor(m => m.Nationality, PainterViewModel.Nationality_options.foreigner, new { @class = "foreigner", @required = "required" }) Non-citizen
+                    </label>
+                    <br />
+                </td>
+            </tr>*@ -->
+                    <tr id="userID">
+                        <th>*ID / Passport No.</th>
+                        <td>
+                            <input autofocus="True" class="userID wfull text-box single-line" id="PainterID"
+                                name="PainterID" pattern="[A-Za-z0-9]{4,12}" placeholder="" required="required"
+                                type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Name</th>
+                        <td>
+                            <input class="wfull text-box single-line" data-val="true" data-val-length="姓名字串長度過長"
+                                data-val-length-max="80" data-val-required="姓名不得空白" id="PainterName" maxlength="80"
+                                name="PainterName" required="required" type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Birth</th>
+                        <td>
+                            <div class="birthday_box">
+                                <input class="wfull text-box single-line" data-format="YYYY-MM-DD"
+                                    data-template="YYYY MM DD" data-val="true" data-val-required="出生日期不得空白"
+                                    id="birth_date" name="Birthday" required="required" type="text" value=""
+                                    style="display: none;"><span class="combodate" style="width: 100%; display: flex;">
+                                    <!-- <select class="year" required="required">
+                                        <option value="">YYYY</option>
+                                        <option value="2003">2003</option>
+                                        <option value="2002">2002</option>
+                                        <option value="2001">2001</option>
+                                        <option value="2000">2000</option>
+                                        <option value="1999">1999</option>
+                                        <option value="1998">1998</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1989">1989</option>
+                                        <option value="1988">1988</option>
+                                        <option value="1987">1987</option>
+                                        <option value="1986">1986</option>
+                                        <option value="1985">1985</option>
+                                        <option value="1984">1984</option>
+                                        <option value="1983">1983</option>
+                                        <option value="1982">1982</option>
+                                        <option value="1981">1981</option>
+                                        <option value="1980">1980</option>
+                                        <option value="1979">1979</option>
+                                        <option value="1978">1978</option>
+                                        <option value="1977">1977</option>
+                                        <option value="1976">1976</option>
+                                        <option value="1975">1975</option>
+                                        <option value="1974">1974</option>
+                                        <option value="1973">1973</option>
+                                        <option value="1972">1972</option>
+                                        <option value="1971">1971</option>
+                                        <option value="1970">1970</option>
+                                        <option value="1969">1969</option>
+                                        <option value="1968">1968</option>
+                                        <option value="1967">1967</option>
+                                        <option value="1966">1966</option>
+                                        <option value="1965">1965</option>
+                                        <option value="1964">1964</option>
+                                        <option value="1963">1963</option>
+                                        <option value="1962">1962</option>
+                                        <option value="1961">1961</option>
+                                        <option value="1960">1960</option>
+                                        <option value="1959">1959</option>
+                                        <option value="1958">1958</option>
+                                        <option value="1957">1957</option>
+                                        <option value="1956">1956</option>
+                                        <option value="1955">1955</option>
+                                        <option value="1954">1954</option>
+                                        <option value="1953">1953</option>
+                                        <option value="1952">1952</option>
+                                        <option value="1951">1951</option>
+                                        <option value="1950">1950</option>
+                                        <option value="1949">1949</option>
+                                        <option value="1948">1948</option>
+                                        <option value="1947">1947</option>
+                                        <option value="1946">1946</option>
+                                        <option value="1945">1945</option>
+                                        <option value="1944">1944</option>
+                                        <option value="1943">1943</option>
+                                        <option value="1942">1942</option>
+                                        <option value="1941">1941</option>
+                                        <option value="1940">1940</option>
+                                        <option value="1939">1939</option>
+                                        <option value="1938">1938</option>
+                                        <option value="1937">1937</option>
+                                        <option value="1936">1936</option>
+                                        <option value="1935">1935</option>
+                                        <option value="1934">1934</option>
+                                        <option value="1933">1933</option>
+                                        <option value="1932">1932</option>
+                                        <option value="1931">1931</option>
+                                        <option value="1930">1930</option>
+                                        <option value="1929">1929</option>
+                                        <option value="1928">1928</option>
+                                        <option value="1927">1927</option>
+                                        <option value="1926">1926</option>
+                                        <option value="1925">1925</option>
+                                        <option value="1924">1924</option>
+                                        <option value="1923">1923</option>
+                                        <option value="1922">1922</option>
+                                        <option value="1921">1921</option>
+                                        <option value="1920">1920</option>
+                                    </select>&nbsp;<select class="month " required="required" style="">
+                                        <option value="">MM</option>
+                                        <option value="0">01</option>
+                                        <option value="1">02</option>
+                                        <option value="2">03</option>
+                                        <option value="3">04</option>
+                                        <option value="4">05</option>
+                                        <option value="5">06</option>
+                                        <option value="6">07</option>
+                                        <option value="7">08</option>
+                                        <option value="8">09</option>
+                                        <option value="9">10</option>
+                                        <option value="10">11</option>
+                                        <option value="11">12</option>
+                                    </select>&nbsp;<select class="day " required="required" style="">
+                                        <option value="">DD</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                        <option value="3">03</option>
+                                        <option value="4">04</option>
+                                        <option value="5">05</option>
+                                        <option value="6">06</option>
+                                        <option value="7">07</option>
+                                        <option value="8">08</option>
+                                        <option value="9">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>-->
+                                </span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Contact Information</th>
+
+                        <td>
+                            <p class="tel_group_eng" style="padding-left: 10px">
+                                <span>Phone</span>
+                                <span class="line_input">
+                                    <input class="tel_dialing_eng text-box single-line" id="TelAreaCode" maxlength="3"
+                                        name="TelAreaCode" placeholder="(00)" required="required" type="tel" value="">
+                                    - <input class="tel_local_eng text-box single-line" id="Telephone" maxlength="15"
+                                        name="Telephone" required="required" type="tel" value="">
+                                    <span class="tel_ext_box">
+                                        Extension <input class="tel_ext_eng text-box single-line" id="TelFax"
+                                            maxlength="8" name="TelFax" type="tel" value="">
+                                    </span>
+                                </span>
+                            </p>
+                            <p class="tel_group_eng" style="white-space:nowrap;padding-left:10px">
+                                <span style="float:none;">Mobile</span>
+                                <span class="line_input">
+                                    <input class="wfull text-box single-line" data-val="true" data-val-length="手機字串長度過長"
+                                        data-val-length-max="15" data-val-required="手機不得空白" id="Cellphone"
+                                        maxlength="15" name="Cellphone" placeholder="e.g:0900000000" required="required"
+                                        type="tel" value="">
+                                </span>
+                            </p>
+                            <p class="note" style="color:#ff0000" id="tel_note"></p>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Address</th>
+                        <td>
+                            <input class="wfull text-box single-line" id="address" maxlength="500" name="Address"
+                                placeholder="(ZIP code) Address" required="required" type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Email</th>
+                        <td>
+                            <p class="mail_group">
+                                <input class="input_mail wfull text-box single-line" data-val="true"
+                                    data-val-regex="請輸入正確的信箱"
+                                    data-val-regex-pattern="\w+([-+.&#39;]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                                    data-val-required="電郵不得空白" id="email" maxlength="100" name="Email"
+                                    required="required" style="width: 70%;" type="email" value="">
+                                <a id="email_btn" class="btn_confirm btn">Verify</a>
+                            </p>
+                            <div class="mail_box">
+                                <p class="mail_group">
+                                    <span style="float:none">*Verification code</span>
+                                    <br />
+                                    <span><input id="emailCode" class="input_code wfull" type="tel" name=""
+                                            style="width:80%"></span>
+                                    <button id="emailVerify_btn" class="btn" type="button"
+                                        style="top:auto;right:auto">Confirm</button>
+                                </p>
+                                <p class="note mail_resend"><a id="resentEmail" class="link"><span
+                                            class="icon_mail">&#9993</span> Resend</a></p>
+                            </div>
+                            <p class="note">※ The system will send the validation mail</p>
+                            <p class="note" style="color:#ff0000" id="email_note"></p>
+                        </td>
+                    </tr>
+                    <tr id="school_box">
+                        <th>School Infomation</th>
+                        <td>
+                            <p class="school_group">
+                                <span class="line_input">
+                                    <input class="text-box single-line" data-val="true" data-val-length-max="100"
+                                        id="school" maxlength="100" name="School" type="text" value=""> 　School
+                                </span>
+                            </p>
+                            <p class="school_group">
+                                <span class="line_input">
+                                    <input class="text-box single-line" data-val="true" data-val-length-max="100"
+                                        id="department" maxlength="100" name="Major" type="text" value=""> 　Major
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            *Art-related Experience
+                            <p class="note">( Up to 5 items, within 1000 words in total )</p>
+                            <textarea class="wfull" cols="20" data-val="true" data-val-length-max="300"
+                                id="experienceTxt" maxlength="300" name="Experience" required="required"
+                                rows="5"></textarea>
+                            <p class="note" style="color:#ff0000" id="experience_note"></p>
+                        </th>
+                    </tr>
+                </table>
+                <!-- 參賽作品資料 -->
+                <h2 class="title">Entry Information</h2>
+                <table class="form">
+                    <tr>
+                        <th>*Title</th>
+                        <td>
+                            <input class="wfull text-box single-line" data-val="true" data-val-length="作品名稱字串長度過長"
+                                data-val-length-max="200" data-val-required="作品名稱不得空白" id="Painting" maxlength="200"
+                                name="Painting" required="required" type="text" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Creation Year</th>
+                        <td>
+                            <input class="wfull text-box single-line" data-format="YYYY" data-template="YYYY"
+                                data-val="true" data-val-length="創作年代字串長度過長" data-val-length-max="4"
+                                data-val-required="創作年代不得空白" id="create_date" name="CreateYear" required="required"
+                                type="text" value="" style="display: none;"><span class="combodate"
+                                style="width: 100%; display: flex;">
+                                <!-- <select class="year " required="required"
+                                    id="create_y" style="width: 100%;">
+                                    <option value="">Please select the year</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1975">1975</option>
+                                    <option value="1974">1974</option>
+                                    <option value="1973">1973</option>
+                                    <option value="1972">1972</option>
+                                    <option value="1971">1971</option>
+                                    <option value="1970">1970</option>
+                                    <option value="1969">1969</option>
+                                    <option value="1968">1968</option>
+                                    <option value="1967">1967</option>
+                                    <option value="1966">1966</option>
+                                    <option value="1965">1965</option>
+                                    <option value="1964">1964</option>
+                                    <option value="1963">1963</option>
+                                    <option value="1962">1962</option>
+                                    <option value="1961">1961</option>
+                                    <option value="1960">1960</option>
+                                    <option value="1959">1959</option>
+                                    <option value="1958">1958</option>
+                                    <option value="1957">1957</option>
+                                    <option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                    <option value="1954">1954</option>
+                                    <option value="1953">1953</option>
+                                    <option value="1952">1952</option>
+                                    <option value="1951">1951</option>
+                                    <option value="1950">1950</option>
+                                    <option value="1949">1949</option>
+                                    <option value="1948">1948</option>
+                                    <option value="1947">1947</option>
+                                    <option value="1946">1946</option>
+                                    <option value="1945">1945</option>
+                                    <option value="1944">1944</option>
+                                    <option value="1943">1943</option>
+                                    <option value="1942">1942</option>
+                                    <option value="1941">1941</option>
+                                    <option value="1940">1940</option>
+                                    <option value="1939">1939</option>
+                                    <option value="1938">1938</option>
+                                    <option value="1937">1937</option>
+                                    <option value="1936">1936</option>
+                                    <option value="1935">1935</option>
+                                    <option value="1934">1934</option>
+                                    <option value="1933">1933</option>
+                                    <option value="1932">1932</option>
+                                    <option value="1931">1931</option>
+                                    <option value="1930">1930</option>
+                                    <option value="1929">1929</option>
+                                    <option value="1928">1928</option>
+                                    <option value="1927">1927</option>
+                                    <option value="1926">1926</option>
+                                    <option value="1925">1925</option>
+                                    <option value="1924">1924</option>
+                                    <option value="1923">1923</option>
+                                    <option value="1922">1922</option>
+                                    <option value="1921">1921</option>
+                                    <option value="1920">1920</option>
+                                </select> -->
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>*Size</th>
+                        <td>
+                            <p class="paint_group">
+                                <span>Painting Size (without Frame)：</span>
+                                <br />
+                                <span class="line_input">
+                                    Length <input class="paint_size text-box single-line" data-val="true"
+                                        data-val-number="The field 畫心長度 must be a number." data-val-required="畫心長度不得空白"
+                                        id="paint_length" name="Length" required="required" type="tel" value=""> cm
+                                </span> x
+                                <span class="line_input">
+                                    Width <input class="paint_size text-box single-line" data-val="true"
+                                        data-val-number="The field 畫心寬度 must be a number." data-val-required="畫心寬度不得空白"
+                                        id="paint_width" name="Width" required="required" type="tel" value=""> cm
+                                </span>
+                            </p>
+                            <p class="paint_group">
+                                <span>Including the Frame：</span>
+                                <br />
+                                <span class="line_input">
+                                    Length <input class="paint_size text-box single-line" data-val="true"
+                                        data-val-number="The field 含框長度 must be a number." data-val-required="含框長度不得空白"
+                                        id="paint_flength" name="FrameLength" required="required" type="tel" value="">
+                                    cm
+                                </span> x
+                                <span class="line_input">
+                                    Width <input class="paint_size text-box single-line" data-val="true"
+                                        data-val-number="The field 含框寬度 must be a number." data-val-required="含框寬度不得空白"
+                                        id="paint_fwidth" name="FrameWidth" required="required" type="tel" value=""> cm
+                                </span>
+                            </p>
+                            <p class="note" style="color:#ff0000" id="size_note"></p>
+                            <p class="note" style="color:#ff0000" id="range_note"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            *Concept
+                            <p class="note">( Within 1000 words in total )</p>
+                            <textarea class="wfull" cols="20" data-val="true" data-val-length-max="300"
+                                data-val-required="創作理念不得空白" id="conceptTxt" maxlength="300" name="Concept"
+                                required="required" rows="10"></textarea>
+                            <p class="note" style="color:#ff0000" id="concept_note"></p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            Upload the artwork image
+                            <label class="upload_box" for="upload_input" style="margin-top: 5px;">
+                                <a id="upload_btn" class="upload_btn btn">Choose a File</a>
+                                <div id="file_name" class="file_name"></div>
+                                <input type="file" name="image" id="upload_input" class="wfull">
+                            </label>
+                            <p class="note file_error"></p>
+                            <p class="note file_note">※Allow File Format： JPG、PNG、BMP, Max File Size： 10MB </p>
+                            <div title="File Preview"><img id="previewImage" class="thumbnailImg" src=""></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            Related Link
+                            <P style="margin-top: 5px;">
+                                <input class="wfull text-box single-line" id="Painting" maxlength="200" name="Painting"
+                                    type="text" value="">
+                            </P>
+                        </th>
+                    </tr>
+                </table>
+                <!-- 退件方式 -->
+                <h2 class="title">Secondary Review Return</h2>
+                <p class="notebox">※ The preliminary review files will not be returned, please keep the backup.</p>
+                <table class="form">
+                    <tr>
+                        <th>*Return</th>
+                        <td>
+                            <label>
+                                <input checked="True" id="inPerson" name="ReturnType" required="required" type="radio"
+                                    value="pick"> Self-pickup
+                            </label>
+                            <label>
+                                <input id="carry" name="ReturnType" required="required" type="radio" value="freight">
+                                Shipping
+                            </label>
+                        </td>
+                    </tr>
+                    <tr id="del_address_box">
+                        <th>Return Address</th>
+                        <td>
+                            <label><input type="checkbox" name="" id="checkAddress"> Same as Contact Address</label>
+                            <input class="wfull text-box single-line" id="del_address" maxlength="200"
+                                name="ReturnAddress" type="text" value="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="license_wrap">
+                <h2 class="title">Mandatory Disclosure Regarding Use of Personal Data by E.SUN Bank</h2>
+                <div class="license">
+                    <div class="license_note notebox center">※ Please be sure to read the following content.</div>
+                    <ol>
+                        <li>For the specific purposes of holding E.SUN Art Awards 2022 contest, E.SUN Bank will collect,
+                            process or use the personal data provided by you for the specific purposes set forth above.
+                            Except for your prior consent or where it is prescribed by law, the time, place, subject and
+                            method of processing and using personal data shall be only within the necessary scope for
+                            achieving the specific purpose set forth above(including but not limited to verifying your
+                            identity, contacting you, and providing you subsequent service and information regarding the
+                            submissions and exhibitions of the E.SUN Art Awards contest).</li>
+                        <li>Types of personal data : name, date of birth, national ID number or passport number, contact
+                            information (including but not limited to telephone number, e-mail or address) or other
+                            information that can directly or indirectly identify you personally.</li>
+                        <li>
+                            Pursuant to Article 3 of the Personal Data Protection Law,you may exercise the following
+                            rights over your own information held by the Bank:
+                            (1)Except for the circumstances described in Article 10 of PDPA, the right to inquire,
+                            review or obtain duplicate copies of information held, for which the Bank is permitted under
+                            Article 14 of PDPA to collect a small fee to cover its costs.
+                            (2) The right to supplement or rectify personal data held by the Bank. However, Article 19
+                            of the Implementation Rules of the Personal Data Protection Act requires you to state
+                            reasons and facts.
+                            (3) The right to stop the Bank from collecting personal data according to Article 11,
+                            Paragraph 4 of PDPA in the event that the Bank is found to have violated PDPA while
+                            collecting, processing or using your personal data.
+                            (4) The right to stop the Bank from processing, using, or limited processing of your
+                            personal data according to Article 11, Paragraph 2 of PDPA, should you have doubts toward
+                            the correctness of information held by the Bank. This excludes situations where you have
+                            consented in writing or situations where the Bank is required to continue its use of the
+                            information as part of its business activities, provided that the area of dispute has been
+                            remarked clearly.
+                            (5) The right to stop the Bank from processing, using, or limited processing of your
+                            personal data, and to have personal data deleted from the Bank's database according to
+                            Article 11, Paragraph 3 of PDPA, when the purpose for which information was collected no
+                            longer exists or when the duration expires. This excludes situations where you have
+                            consented in writing or situations where the Bank is required to continue its use of the
+                            information as part of its business activities.
+                            (6)The right to have the Bank take out or transfer your personal data. (applies only to data
+                            subjects within the EU)
+                            (7)The right to have the Bank withdraw your consent to the personal data declaration.
+                            (applies only to data subjects within the EU)
+                            (8)The right to lodge a complaint with a supervisory authority if you believe your data
+                            protection rights have been infringed by the Bank.
+                        </li>
+                        <li>You are free to choose whether to provide your personal data to E.SUN Bank. However, if the
+                            personal data provided by you is reported or if E.SUN Bank finds that it is not sufficient
+                            to confirm the authenticity of your identity or there exists any circumstances of fraudulent
+                            use or misuse of personal data, or you refuse to provide your personal data, E.SUN Bank
+                            reserves the right to disqualify you from the contest. We seek your understanding in this
+                            matter.</li>
+                    </ol>
+                </div>
+                <p class="agreed_txt disabled"><label><input class="agreed agreed_1" type="checkbox" name="agreed_1"
+                            id="agreed_1" required> I acknowledge and consent to the "Mandatory Disclosure Regarding Use
+                        of Personal Data by E.SUN Bank "</label></p>
+                <p class="agreed_txt disabled"><label><input class="agreed agreed_2" type="checkbox" name="agreed_2"
+                            id="agreed_2" required> I have read and agreed to the "E.SUN Art Awards" official rules. <a
+                            class="link" href="~/download/2017drawesun.pdf" download>(Download PDF)</a></label></p>
+            </div>
+            <div class="final_note">Thank you for the cooperation.<br>Please confirm the information above is correct,
+                it cannot be changed after the application is sent.</div>
+            <!-- @*<table class="form">
+            <tr>
+                <th>圖形驗證碼</th>
+                <td>
+                    <label>
+                        <span><input class="input_code" type="tel" name=""></span><button class="btn" id="captcha_chk" type="button">驗證</button> <button class="btn" id="captcha_btn" type="button">重新產生</button>
+                    </label>
+                    <label>
+                        <div title="圖形驗證碼"><img id="captchaImage" class="thumbnailImg" src="@ViewBag.ImgSrc"></div>
+                    </label>
+                </td>
+            </tr>
+        </table>*@ -->
+            <button class="btn_send" type="submit">Register</button>
+            <div id="LoadingMask" class="mask"><img src="images/loading.gif" class="loading"></div>
+            <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+            <script type="text/javascript" src="js/headerFooter.js"></script>
+            <script type="text/javascript" src="js/fastclick.js"></script>
+            <script type="text/javascript" src="js/combodate.js"></script>
+            <script type="text/javascript" src="js/moment.min.js"></script>
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                    var TelAreaValidate = new Boolean(false);
+                    var TelephoneValidate = new Boolean(false);
+                    var TelFaxValidate = new Boolean(false);
+                    var CellphoneValidate = new Boolean(false);
+                    var paintWValidate = new Boolean(false);
+                    var paintLValidate = new Boolean(false);
+                    var paintFWValidate = new Boolean(false);
+                    var paintFLValidate = new Boolean(false);
+                    var paintWRValidate = new Boolean(false);
+                    var paintLRValidate = new Boolean(false);
+                    var paintFWRValidate = new Boolean(false);
+                    var paintFLRValidate = new Boolean(false);
+
+                    //國際組不分年齡
+                    $('#birth_date').combodate({
+                        firstItem: 'name',
+                        minYear: 1920,
+                        maxYear: 2022,
+                    });
+
+                    $("#create_date").combodate({
+                        firstItem: 'name',
+                        minYear: 1920,
+                        maxYear: 2022,
+                    });
+
+                    $('select option:contains("year")').text('YYYY');
+                    $('select option:contains("month")').text('MM');
+                    $('select option:contains("day")').text('DD');
+                    $(".year").attr("required", "required");
+                    $(".month").attr("required", "required");
+                    $(".day").attr("required", "required");
+                    $('.year').removeAttr('style');
+                    $('.month').removeAttr('style');
+                    $('.day').removeAttr('style');
+                    $('.combodate').css("width", "100%");
+                    $('.combodate').css("display", "flex");
+
+                    $("#create_date").next().children().css("width", "100%");
+                    $("#create_date").next().children().attr("id", "create_y");
+                    $('#create_y option:contains("YYYY")').text('Please select the year');
+
+                    $('#checkAddress').change(function () {
+                        if ($(this).prop('checked')) {
+                            var getValue = $('#address').val();
+                            $('#del_address').val(getValue);
+                            $('#del_address').prop('readonly', true);
+                        } else {
+                            $('#del_address').val('');
+                            $('#del_address').prop('readonly', false);
+                        }
+                    });
+
+                    function getElementsByAttribute(attribute, context) {
+                        var nodeList = (context || document).getElementsByTagName('*');
+                        var nodeArray = [];
+                        var iterator = 0;
+                        var node = null;
+
+                        while (node = nodeList[iterator++]) {
+                            if (node.hasAttribute(attribute)) nodeArray.push(node);
+                        }
+
+                        return nodeArray;
+                    }
+
+                    function validateRequired(attribute) {
+                        var allElements = getElementsByAttribute(attribute, document);
+                        for (var i = 0, n = allElements.length; i < n; i++) {
+                            if (allElements[i].value == '') {
+                                allElements[i].focus();
+                                return false;
+                            }
+                        }
+                        return true;
+                    }
+
+                    function validation() {
+                        var isOkay = new Boolean(true);
+                        //experienceLines = $('#experienceTxt').val().split("\n").length;
+                        //conceptLines = $('#conceptTxt').val().split("\n").length;
+                        //if (experienceLines > 20) {
+                        //    $("#experience_note").html("※ 為方便後續審閱，請縮減藝術相關經歷至20行以下。").fadeIn();
+                        //    $("#experienceTxt").focus();
+                        //    isOkay = false;
+                        //}
+
+                        //if (conceptLines > 20) {
+                        //    $("#concept_note").html("※ 為方便後續審閱，請縮減藝術相關經歷至20行以下。").fadeIn();
+                        //    $("#conceptTxt").focus();
+                        //    isOkay = false;
+                        //}
+
+                        if (!TelAreaValidate) {
+                            $("#TelAreaCode").focus();
+                            isOkay = false;
+                        }
+                        if (!TelephoneValidate) {
+                            $("#Telephone").focus();
+                            isOkay = false;
+                        }
+                        if (!TelFaxValidate) {
+                            $("#TelFax").focus();
+                            isOkay = false;
+                        }
+                        if (!CellphoneValidate) {
+                            $("#Cellphone").focus();
+                            isOkay = false;
+                        }
+
+                        if (!paintWValidate || !paintWRValidate) {
+                            $("#paint_width").focus();
+                            isOkay = false;
+                        }
+                        if (!paintLValidate || !paintLRValidate) {
+                            $("#paint_length").focus();
+                            isOkay = false;
+                        }
+                        if (!paintFWValidate || !paintFWRValidate) {
+                            $("#paint_fwidth").focus();
+                            isOkay = false;
+                        }
+                        if (!paintFLValidate || !paintFLRValidate) {
+                            $("#paint_flength").focus();
+                            isOkay = false;
+                        }
+
+                        //if (!$('#agreed_1').prop('checked') || $('#agreed_1').is(':disabled')) {
+                        //    isOkay = false;
+                        //}
+
+                        //if (!$('#agreed_2').prop('checked') || $('#agreed_2').is(':disabled')) {
+                        //    isOkay = false;
+                        //}
+
+                        if (!$('#agreed_1').prop('checked')) {
+                            isOkay = false;
+                        }
+
+                        if (!$('#agreed_2').prop('checked')) {
+                            isOkay = false;
+                        }
+
+                        if (!validateRequired("required")) {
+                            isOkay = false;
+                        }
+                        return isOkay;
+                    }
+
+                    $('#PainterForm').on('submit', function () {
+                        if (!validation()) {
+                            return false;
+                        }
+                        else {
+                            $('#LoadingMask').show();
+                            return true;
+                        }
+                    });
+
+                    //$('.btn_send').click(function (event) {
+                    //    if (!validation()) {
+                    //        return false;
+                    //    }
+                    //    else {
+                    //        $('#LoadingMask').show();
+                    //    }
+                    //    return;
+                    //});
+
+                    $('#captcha_btn').on('click', function () {
+                        var url = "/Painter/UpdateCaptcha";
+                        $.ajax({
+                            url: url,
+                            type: 'POST',
+                            data: "",
+                            dataType: "",
+                            success: function (data) {
+                                $("#captchaImage").attr("src", data);
+                            },
+                            error: function (reponse) {
+                            }
+                        });
+                    });
+
+                    $('#email_btn, #resentEmail').on('click', function () {
+                        var email = $('#email').val();
+                        var regex = /^([a-zA-Z0-9_.+-])+\@@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                        if ($('#email').val().length == 0) {
+                            $("#email_note").show();
+                            $("#email_note").html("※ Please enter your Email").fadeIn();
+                            return false;
+                        }
+                        if (!regex.test(email)) {
+                            $("#email_note").show();
+                            $("#email_note").html("※ Email Format Error ").fadeIn();
+                            return false;
+                        }
+                        $("#email_note").hide();
+
+                        var url = "/Painter/SendMailVerify";
+                        var language = 'Eng';
+                        $.ajax({
+                            url: url,
+                            type: 'POST',
+                            data: { email: email, language: language },
+                            dataType: "",
+                            success: function (data) {
+                                $("#email_note").html(data).fadeIn();
+                            },
+                            error: function () {
+                                $("#email_note").html('Connection error,please try again.').fadeIn();
+                            },
+                        });
+                    });
+
+                    $('#emailVerify_btn').on('click', function () {
+                        var email = $('#email').val();
+                        var code = $('#emailCode').val();
+                        var language = 'Eng';
+                        var url = "/Painter/MailVerifyCheck";
+                        $.ajax({
+                            url: url,
+                            type: 'POST',
+                            data: { email: email, code: code, language: language },
+                            dataType: "",
+                            success: function (data) {
+                                $("#email_note").html(data).fadeIn();
+                            },
+                            error: function () {
+                                $("#email_note").html('Connection error,please try again.').fadeIn();
+                            }
+                        });
+                    });
+
+                    $("#tel_note").hide();
+                    $('#TelAreaCode, #Telephone, #TelFax, #Cellphone').blur(function () {
+                        if (!isNumber($('#TelAreaCode').val()) && $('#TelAreaCode').val().length != 0) {
+                            TelAreaValidate = false;
+                        } else {
+                            TelAreaValidate = true;
+                        }
+                        if (!isNumber($('#Telephone').val()) && $('#Telephone').val().length != 0) {
+                            TelephoneValidate = false;
+                        } else {
+                            TelephoneValidate = true;
+                        }
+                        if (!isNumber($('#TelFax').val()) && $('#TelFax').val().length != 0) {
+                            TelFaxValidate = false;
+                        } else {
+                            TelFaxValidate = true;
+                        }
+                        if (!isNumber($('#Cellphone').val()) && $('#Cellphone').val().length != 0) {
+                            CellphoneValidate = false;
+                        } else {
+                            CellphoneValidate = true;
+                        }
+
+                        if (!TelAreaValidate || !TelephoneValidate || !TelFaxValidate || !CellphoneValidate) {
+                            $("#tel_note").show();
+                            $("#tel_note").html("※ Please enter numbers only.").fadeIn();
+                        }
+                        else {
+                            $("#tel_note").hide();
+                        }
+                    });
+
+                    $("#size_note").hide();
+                    $('#paint_width, #paint_length, #paint_fwidth, #paint_flength').blur(function () {
+                        if (!isNumber($('#paint_width').val()) && $('#paint_width').val().length != 0) {
+                            paintWValidate = false;
+                        } else {
+                            paintWValidate = true;
+                        }
+                        if (!isNumber($('#paint_length').val()) && $('#paint_length').val().length != 0) {
+                            paintLValidate = false;
+                        } else {
+                            paintLValidate = true;
+                        }
+                        if (!isNumber($('#paint_fwidth').val()) && $('#paint_fwidth').val().length != 0) {
+                            paintFWValidate = false;
+                        } else {
+                            paintFWValidate = true;
+                        }
+                        if (!isNumber($('#paint_flength').val()) && $('#paint_flength').val().length != 0) {
+                            paintFLValidate = false;
+                        } else {
+                            paintFLValidate = true;
+                        }
+
+                        if (!paintWValidate || !paintLValidate || !paintFWValidate || !paintFLValidate) {
+                            $("#size_note").show();
+                            $("#size_note").html("※ Please enter numbers only.").fadeIn();
+                        }
+                        else {
+                            $("#size_note").hide();
+                        }
+                    });
+
+                    $("#range_note").hide();
+                    $('#paint_width, #paint_length, #paint_fwidth, #paint_flength').blur(function () {
+                        if ($('#paint_width').val() > 10000 || $('#paint_width').val() < 0) {
+                            paintWRValidate = false;
+                        } else {
+                            paintWRValidate = true;
+                        }
+                        if ($('#paint_length').val() > 10000 || $('#paint_length').val() < 0) {
+                            paintLRValidate = false;
+                        } else {
+                            paintLRValidate = true;
+                        }
+                        if ($('#paint_fwidth').val() > 10000 || $('#paint_fwidth').val() < 0) {
+                            paintFWRValidate = false;
+                        } else {
+                            paintFWRValidate = true;
+                        }
+                        if ($('#paint_flength').val() > 10000 || $('#paint_flength').val() < 0) {
+                            paintFLRValidate = false;
+                        } else {
+                            paintFLRValidate = true;
+                        }
+
+                        if (!paintWRValidate || !paintLRValidate || !paintFWRValidate || !paintFLRValidate) {
+                            $("#range_note").show();
+                            $("#range_note").html("※ Please enter numbers only.").fadeIn();
+                        }
+                        else {
+                            $("#range_note").hide();
+                        }
+                    });
+
+                    function isNumber(n) {
+                        return !isNaN(parseFloat(n)) && isFinite(n);
+                    }
+
+                    //$('#experienceTxt, #conceptTxt').blur(function () {
+                    //    experienceLines = $('#experienceTxt').val().split("\n").length;
+                    //    conceptLines = $('#conceptTxt').val().split("\n").length;
+                    //    if (experienceLines > 20) {
+                    //        $("#experience_note").html("※ 為方便後續審閱，請縮減藝術相關經歷至20行以下。").fadeIn();
+                    //    }
+                    //    else {
+                    //        $("#experience_note").hide();
+                    //    }
+
+                    //    if (conceptLines > 20) {
+                    //        $("#concept_note").html("※ 為方便後續審閱，請縮減藝術相關經歷至20行以下。").fadeIn();
+                    //    }
+                    //    else {
+                    //        $("#concept_note").hide();
+                    //    }
+                    //});
+
+                    // @{
+                    //     string apierror = ViewBag.APIerror;
+                    //     if(apierror != null)
+                    //     {
+                    //          @:alert("@apierror");
+                    //     }
+
+                    //     List<string> errorlist = ViewBag.errorlist;
+                    //     string show = string.Empty;
+                    //     if (errorlist != null)
+                    //     {
+                    //         for (int i = 0; i < errorlist.Count; i++)
+                    //         {
+                    //             show += (i+1) + ". " + errorlist[i] + "\\n";
+                    //         }
+                    //         if (errorlist.Count > 0)
+                    //         {
+                    //             @:alert("@show");
+                    //                 }
+                    //     }
+                    // }
+                });
+
+            </script>
+
+        </div><!-- END #content -->
+    </div><!-- END #wrapper -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="block">
+            <ul class="link">
+                <li>
+                    <a href="https://robot.esunbank.com.tw/?eservice=eFingo&amp;qaCategory=general" target="_blank" data-gtm-vis-first-on-screen-1017459_755="1476" data-gtm-vis-first-on-screen-1017459_756="1487" data-gtm-vis-recent-on-screen-1017459_755="148034" data-gtm-vis-total-visible-time-1017459_755="5000" data-gtm-vis-recent-on-screen-1017459_756="148042" data-gtm-vis-total-visible-time-1017459_756="10000" data-gtm-vis-has-fired-1017459_755="1" data-gtm-vis-has-fired-1017459_756="1">智能客服</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="https://www.esunbank.com.tw/bank/about/announcement/privacy/privacy-statement" target="_blank" data-gtm-vis-first-on-screen-1017459_755="1481" data-gtm-vis-first-on-screen-1017459_756="1490" data-gtm-vis-recent-on-screen-1017459_755="148037" data-gtm-vis-total-visible-time-1017459_755="5000" data-gtm-vis-recent-on-screen-1017459_756="148044" data-gtm-vis-total-visible-time-1017459_756="10000" data-gtm-vis-has-fired-1017459_755="1" data-gtm-vis-has-fired-1017459_756="1">個資法定告知事項</a>
+                </li>
+                <li>|</li>
+                <li class="copy"><a data-gtm-vis-first-on-screen-1017459_755="1484" data-gtm-vis-first-on-screen-1017459_756="1492" data-gtm-vis-recent-on-screen-1017459_755="148040" data-gtm-vis-total-visible-time-1017459_755="5000" data-gtm-vis-recent-on-screen-1017459_756="148046" data-gtm-vis-total-visible-time-1017459_756="10000" data-gtm-vis-has-fired-1017459_755="1" data-gtm-vis-has-fired-1017459_756="1">© E.SUN BANK</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Gotop -->
+    <div id="gotop">
+        <img src="images/HeaderFooter/top.svg" class="img-responsive" alt="">
+    </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe sandbox="allow-scripts" src="https://www.googletagmanager.com/ns.html?id=GTM-K9JMBLG" height="0"
+            width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</body>
+
+</html>
