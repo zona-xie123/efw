@@ -25,7 +25,7 @@ a { text-decoration: none; transition: all 0.3s ease, background-position 0s;}
 a:focus { outline: 0;}
 
 /* 共用 */
-#content { max-width: 600px; margin: 0 auto; padding: 30px 0 50px 0; box-sizing: border-box;margin-top: 60px!important;}
+#content { max-width: 600px; margin: 0 auto; padding: 30px 0 50px 0; box-sizing: border-box;}
 .wrap{ max-width: 600px; margin: 0 auto; padding: 5px 50px 45px 50px; color: #1c1c1c; background: #fff; border-radius: 4px;box-sizing: border-box;box-shadow: 0 5px 10px #409d9833;}
 .wrap+.wrap{ margin-top: 20px;}
 #wrapper{
@@ -135,6 +135,9 @@ button{ font-family: inherit;}
 	}
 }
 .form{ width: 100%; border-collapse: collapse; text-align: left;}
+.form tbody{
+	display: block!important;
+}
 .form th{ width: 0em; padding: 10px 0 10px 0; font-weight: normal; line-height: 30px; vertical-align: top; white-space: nowrap; color: #1c1c1c; min-width: 77px;}
 .form th[colspan="2"]{ white-space: normal;}
 .form th *{ font-weight: normal; text-indent: 0;}
@@ -209,7 +212,7 @@ button{ font-family: inherit;}
 
 .upload_box{ position: relative; z-index: 1; display: block; width: 100%; height: 30px; line-height: 28px; border: solid 1px #ddd; box-sizing: border-box; cursor: pointer;}
 .upload_box.onfocus{ outline: solid 2px #d00; border: solid 2px #fff; height: 32px;}
-.upload_btn{ position: absolute; z-index: 0; top: 0; right: 0; margin: -1px;}
+.upload_btn{ position: absolute; z-index: 0; top: 0; right: 0; margin: -1px;pointer-events: none;}
 .file_name{ display: block; height: 100%; padding: 0 0.5em; line-height: 30px; overflow: hidden; text-overflow: ellipsis; border: 0;}
 .file_name_txt:before{ content: "..."; float: right;}
 #upload_input{ display: none;}
