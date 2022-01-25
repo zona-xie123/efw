@@ -78,16 +78,6 @@ a:focus { outline: 0;}
 	}
 }
 @media ( max-width: 500px){
-	.note{
-		margin-top: 50px!important;
-	}
-	.upload_btn{
-		top: 36px!important;
-		left: 0;
-		max-width: 100px;
-		width: 100%;
-		text-align: center;
-	}
 	.kv h1{
 	    left: 3%;
     font-size: 24px;
@@ -225,8 +215,7 @@ button{ font-family: inherit;}
 .upload_btn{ position: absolute; z-index: 0; top: 0; right: 0; margin: -1px; }
 .file_name{ display: block; height: 100%; padding: 0 0.5em; line-height: 30px; overflow: hidden; text-overflow: ellipsis; border: 0;}
 .file_name_txt:before{ content: "..."; float: right;}
-#upload_input{     right: 0;
-    border: 0;}
+#upload_input{ display: none;}
 .file_error{ display: none; color: #d00; font-weight: bold;}
 .thumbnailImg{ max-width: 100%; max-height: 100px; width: auto; height: auto; margin-top: 10px;}
 
