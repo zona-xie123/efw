@@ -225,7 +225,8 @@ button{ font-family: inherit;}
 .upload_btn{ position: absolute; z-index: 0; top: 0; right: 0; margin: -1px; }
 .file_name{ display: block; height: 100%; padding: 0 0.5em; line-height: 30px; overflow: hidden; text-overflow: ellipsis; border: 0;}
 .file_name_txt:before{ content: "..."; float: right;}
-#upload_input{ display: none;}
+#upload_input{     right: 0;
+    border: 0;}
 .file_error{ display: none; color: #d00; font-weight: bold;}
 .thumbnailImg{ max-width: 100%; max-height: 100px; width: auto; height: auto; margin-top: 10px;}
 
