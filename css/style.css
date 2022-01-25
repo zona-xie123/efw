@@ -135,9 +135,7 @@ button{ font-family: inherit;}
 	}
 }
 .form{ width: 100%; border-collapse: collapse; text-align: left;}
-.form tbody{
-	display: block!important;
-}
+
 .form th{ width: 0em; padding: 10px 0 10px 0; font-weight: normal; line-height: 30px; vertical-align: top; white-space: nowrap; color: #1c1c1c; min-width: 77px;}
 .form th[colspan="2"]{ white-space: normal;}
 .form th *{ font-weight: normal; text-indent: 0;}
@@ -154,6 +152,9 @@ button{ font-family: inherit;}
 	.form tr{ display: block; margin: 1.5em 0;}
 	.form th, .form td{ display: block; width: auto; margin: 0.3em 0; padding-top: 0; padding-bottom: 0; line-height: 1.6;}
 	.form td{padding-left: 0;}
+	.form tbody{
+		display: block!important;
+	}
 }
 
 /*基本資料*/
