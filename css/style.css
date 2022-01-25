@@ -78,6 +78,9 @@ a:focus { outline: 0;}
 	}
 }
 @media ( max-width: 500px){
+	.upload_btn{
+		display: none!important;
+	}
 	.kv h1{
 	    left: 3%;
     font-size: 24px;
