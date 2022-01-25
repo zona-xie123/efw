@@ -99,53 +99,9 @@ $(document).ready(function () {
 			return false 
 		}
 	});
-
-	$('#upload_btn').click(function() {
-        alert(aaa);
-        var filePath = $(".upload_box").val();
-        var f = $(".upload_box").files[0];
-
-        if (f.size > 10485760 || f.fileSize > 10485760) {
-            $('#upload_input').val("");
-            $('#file_name').html("");
-            $('#previewImage').attr('src', '');
-            $(".upload_box").addClass("onfocus");
-            $(".file_note").show();
-            $(".file_error").html("請確認照片檔案小於10MB後再重新上傳，謝謝。</br> Max File Size： 10MB").fadeIn();
-            return false
-        }
-        else
-        {
-            $(".file_error").html("").fadeIn();
-        }
-
-        if (f.type == 'image/png' || f.type == 'image/jpg' || f.type == 'image/bmp' || f.type == 'image/jpeg') {
-            var arr=filePath.split('\\');
-            var fileName=arr[arr.length-1];
-            $(".upload_box").removeClass("onfocus");
-            $(".file_note").hide();
-            $(".file_name").html(fileName);
-
-            if ($(".upload_box").files && $(".upload_box").files[0]) {
-                var reader = new FileReader();
-
-                reader.onload = function (e) {
-                    $('#previewImage').attr('src', e.target.result);
-                }
-
-                reader.readAsDataURL($(".upload_box").files[0]);
-            }
-        } else {
-            $('#upload_input').val("");
-            $('#file_name').html("");
-            $('#previewImage').attr('src', '');
-            // $(".file_name").html("");
-            $(".upload_box").addClass("onfocus");
-            $(".file_note").show();
-            $(".file_error").html("※ 您未上傳文件，或著您上傳的文件類型有誤！</br> Allow File Format： JPG、PNG、BMP").fadeIn();
-            return false 
-        }
-    })
+// $('#upload_btn').click(function() {
+//         $(".upload_box").trigger('click');
+//     })
 	//退件方式
 	$("#inPerson").click(function(){
 		$("#del_address_box").hide();
