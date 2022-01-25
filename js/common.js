@@ -54,7 +54,7 @@ $(document).ready(function () {
 	}
 
 	//上傳檔案
-	$(".upload_box").on("change","#upload_input","#upload_btn",function(){
+	$(".upload_box, #upload_btn").on("change","#upload_input",function(){
 	    var filePath = $(this).val();
 	    var f = this.files[0];
 
