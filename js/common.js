@@ -54,7 +54,7 @@ $(document).ready(function () {
 	}
 
 	//上傳檔案
-	$(".upload_box, #upload_btn").on("click","#upload_input",function(){
+	$(".upload_box").on("click","#upload_input",function(){
 	    var filePath = $(this).val();
 	    var f = this.files[0];
 
@@ -99,7 +99,9 @@ $(document).ready(function () {
 			return false 
 		}
 	});
-
+	$('#upload_btn').click(function() {
+        $(".upload_box").trigger('click');
+    })
 	//退件方式
 	$("#inPerson").click(function(){
 		$("#del_address_box").hide();
